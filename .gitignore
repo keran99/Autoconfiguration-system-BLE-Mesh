@@ -1,0 +1,63 @@
+# Commento: questo è un esempio di file .gitignore per un progetto BLE Mesh con ESP-IDF
+
+# Ignora la cartella di output della compilazione
+build/
+
+# Ignora i file di configurazione locali generati da ESP-IDF
+sdkconfig
+sdkconfig.old
+
+# Ignora i file binari generati
+*.bin
+*.elf
+*.bin.map
+*.partitions
+*.csv
+
+# Ignora i file di log
+*.log
+
+# Ignora i file di debug
+*.d
+
+# Ignora i file temporanei
+*.swp
+*.swo
+
+# Ignora i file generati dai toolchain
+.cmake/
+components/
+sdk/
+
+# Ignora i file generati da Visual Studio Code
+.vscode/
+*.vscode/
+
+# Ignora i file generati da Eclipse
+.project
+.settings/
+
+# Ignora i file generati da IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Ignora i file di backup
+*~
+
+# Ignora le chiavi API o token sensibili
+secrets.h
+
+# Ignora i file di log generati da ESP-IDF
+idf_monitor.log
+
+# Ignora i file di stato del debug di ESP-IDF
+debug/
+
+# Ignora la directory dei file di configurazione di ESP-IDF
+tools/kconfig/
+
+# Ignora i file generati dal gestore dei pacchetti di ESP-IDF
+.cmake/
