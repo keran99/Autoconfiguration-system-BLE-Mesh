@@ -1,5 +1,3 @@
-# Commento: questo è un esempio di file .gitignore per un progetto BLE Mesh con ESP-IDF
-
 # Ignora la cartella di output della compilazione
 build/
 
