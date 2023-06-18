@@ -59,3 +59,5 @@ tools/kconfig/
 
 # Ignora i file generati dal gestore dei pacchetti di ESP-IDF
 .cmake/
+
+.devcontainer
