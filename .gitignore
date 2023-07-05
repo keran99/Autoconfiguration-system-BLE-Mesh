@@ -10,7 +10,6 @@ sdkconfig.old
 *.elf
 *.bin.map
 *.partitions
-*.csv
 
 # Ignora i file di log
 *.log
